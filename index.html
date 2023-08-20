@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-color: #1A1D25;
+        /* background-size: 100% 100%; */
+        height: 3056px;
+    }
+
+    .header {
+        height: 90px;
+        background-color: #232631;
+    }
+
+    #left {
+        position: absolute;
+        top: 40px;
+        left: 20px;
+    }
+
+    #left1 {
+        position: absolute;
+        font-size: 24px;
+        top: 40px;
+        left: 53px;
+        color: aliceblue;
+    }
+
+    #left2 {
+        position: absolute;
+        top: 33px;
+        left: 244px;
+    }
+
+    .right {
+        position: absolute;
+        left: 775px;
+    }
+
+    .navbar ul {
+        overflow: auto;
+    }
+
+    .navbar li {
+        float: left;
+        list-style: none;
+        margin: 13px 20px;
+        font-size: 20px;
+
+    }
+
+    .navbar li a {
+        padding: 13px 13px;
+        text-decoration: none;
+        color: white;
+    }
+
+
+    .navbar li a:hover {
+        color: #8325FD;
+        background-color: #2C2B3E;
+        border-radius: 30px;
+    }
+
+    #main1 {
+        position: absolute;
+        top: 120px;
+        left: 25px;
+        height: 280px;
+        width: 1000px;
+        background-color: #232631;
+        border-radius: 30px;
+        /* display: flex;
+        flex-direction: column; */
+    }
+
+    #main01 {
+        position: absolute;
+        left: 50px;
+        font-size: 60px;
+        color: white;
+    }
+
+    #main02 {
+        position: absolute;
+        top: 95px;
+        left: 50px;
+        font-size: 35px;
+        color: white;
+        background-color: #8325FD;
+        border-radius: 25px;
+        padding: 10px 10px;
+    }
+
+    #main03 {
+        position: absolute;
+        top: 180px;
+        left: 50px;
+        color: white;
+        font-size: 50px;
+    }
+
+    #main2 {
+        position: absolute;
+        top: 120px;
+        left: 1060px;
+    }
+
+    #main2 img {
+        height: 495px;
+        width: 350px;
+        border-radius: 25px;
+    }
+
+    #main3 {
+        position: absolute;
+        top: 420px;
+        left: 25px;
+        height: 200px;
+        width: 1000px;
+        background-color: #232631;
+        border-radius: 30px;
+    }
+
+    #main3a {
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        font-size: 40px;
+        color: white;
+    }
+
+    #main3b {
+        position: absolute;
+        top: 75px;
+        left: 20px;
+        font-size: 17px;
+        color: white;
+    }
+
+    #main4 {
+        position: absolute;
+        top: 150px;
+        left: 1430px;
+        background-color: #34384A;
+        height: 60px;
+        width: 60px;
+        border-radius: 30px;
+    }
+
+    #main4a {
+        position: absolute;
+        top: 10px;
+        left: 15px;
+
+    }
+
+    #main4a i {
+        font-size: 35px;
+        color: aliceblue;
+    }
+
+    #main4a i:hover {
+        font-size: 33px;
+    }
+
+    #main5 {
+        position: absolute;
+        top: 260px;
+        left: 1430px;
+        background-color: #34384A;
+        height: 60px;
+        width: 60px;
+        border-radius: 30px;
+    }
+
+    #main5a {
+        position: absolute;
+        top: 10px;
+        left: 15px;
+
+    }
+
+    #main5a i {
+        font-size: 35px;
+        color: aliceblue;
+    }
+
+    #main5a i:hover {
+        font-size: 33px;
+    }
+
+    #main6 {
+        position: absolute;
+        top: 370px;
+        left: 1430px;
+        background-color: #34384A;
+        height: 60px;
+        width: 60px;
+        border-radius: 30px;
+    }
+
+    #main6a {
+        position: absolute;
+        top: 10px;
+        left: 15px;
+
+    }
+
+    #main6a i {
+        font-size: 35px;
+        color: aliceblue;
+    }
+
+    #main6a i:hover {
+        font-size: 33px;
+    }
+
+    #main7 {
+        position: absolute;
+        top: 480px;
+        left: 1430px;
+        background-color: #34384A;
+        height: 60px;
+        width: 60px;
+        border-radius: 30px;
+    }
+
+    #main7a {
+        position: absolute;
+        top: 10px;
+        left: 15px;
+
+    }
+
+    #main7a i {
+        font-size: 35px;
+        color: aliceblue;
+    }
+
+    #main7a i:hover {
+        font-size: 33px;
+    }
+
+    #main8 {
+        position: absolute;
+        top: 650px;
+        left: 25px;
+        height: 375px;
+        width: 1450px;
+        background-color: #232631;
+        border-radius: 30px;
+    }
+
+    #main8a {
+        position: absolute;
+        top: 10px;
+        left: 40px;
+        font-size: 40px;
+        color: white;
+    }
+
+    #main8b {
+        position: absolute;
+        top: 70px;
+        left: 50px;
+    }
+
+    #main8b img {
+        height: 280px;
+        width: 400px;
+        border-radius: 30px;
+    }
+
+    #main8c {
+        position: absolute;
+        top: 70px;
+        left: 550px;
+    }
+
+    #main8c img {
+        height: 280px;
+        width: 400px;
+        border-radius: 30px;
+    }
+
+    #main8d {
+        font-size: 25px;
+        position: absolute;
+        top: 310px;
+        left: 60px;
+
+    }
+
+    #main8e {
+        font-size: 25px;
+        position: absolute;
+        top: 310px;
+        left: 560px;
+
+    }
+
+
+    #main9 {
+        position: absolute;
+        top: 1050px;
+        left: 25px;
+        height: 325px;
+        width: 1450px;
+        background-color: #232631;
+        border-radius: 30px;
+    }
+
+    #main9a {
+        position: absolute;
+        top: 30px;
+        left: 45px;
+        font-size: 50px;
+        color: white;
+    }
+
+    #main9b {
+        position: absolute;
+        top: 140px;
+        left: 95px;
+        height: 80px;
+        width: 80px;
+        background-color: white;
+        border-radius: 35px;
+
+    }
+
+    #main9b img {
+        position: absolute;
+        top: 15px;
+        left: 13px;
+        height: 55px;
+        width: 55px;
+    }
+
+    #main9c {
+        position: absolute;
+        top: 140px;
+        left: 285px;
+        height: 80px;
+        width: 80px;
+        background-color: white;
+        border-radius: 35px;
+
+    }
+
+    #main9c img {
+        position: absolute;
+        top: 15px;
+        left: 13px;
+        height: 55px;
+        width: 55px;
+    }
+
+    #main9d {
+        position: absolute;
+        top: 140px;
+        left: 475px;
+        height: 80px;
+        width: 80px;
+        background-color: white;
+        border-radius: 35px;
+
+    }
+
+    #main9d img {
+        position: absolute;
+        top: 15px;
+        left: 13px;
+        height: 55px;
+        width: 55px;
+    }
+
+    #main9e {
+        position: absolute;
+        top: 140px;
+        left: 665px;
+        height: 80px;
+        width: 80px;
+        background-color: white;
+        border-radius: 35px;
+
+    }
+
+    #main9e img {
+        position: absolute;
+        top: 15px;
+        left: 13px;
+        height: 55px;
+        width: 55px;
+    }
+
+    #main9f {
+        position: absolute;
+        top: 140px;
+        left: 855px;
+        height: 80px;
+        width: 80px;
+        background-color: white;
+        border-radius: 35px;
+
+    }
+
+    #main9f img {
+        position: absolute;
+        top: 15px;
+        left: 13px;
+        height: 55px;
+        width: 55px;
+    }
+
+    #main9g {
+        position: absolute;
+        top: 140px;
+        left: 1045px;
+        height: 80px;
+        width: 80px;
+        background-color: white;
+        border-radius: 35px;
+
+    }
+
+    #main9g img {
+        position: absolute;
+        top: 15px;
+        left: 13px;
+        height: 55px;
+        width: 55px;
+    }
+
+    #main9h {
+        position: absolute;
+        top: 140px;
+        left: 1235px;
+        height: 80px;
+        width: 80px;
+        background-color: white;
+        border-radius: 35px;
+
+    }
+
+    #main9h img {
+        position: absolute;
+        top: 15px;
+        left: 13px;
+        height: 55px;
+        width: 55px;
+    }
+
+    #main10 {
+        position: absolute;
+        top: 1400px;
+        left: 25px;
+        height: 500px;
+        width: 1450px;
+        background-color: #232631;
+        border-radius: 30px;
+    }
+
+    #main10a {
+        position: absolute;
+        top: 30px;
+        left: 45px;
+        font-size: 50px;
+        color: white;
+
+    }
+
+    #main10b {
+        position: absolute;
+        top: 120px;
+        left: 75px;
+        height: 80px;
+        width: 80px;
+        background-color: #8325FD;
+        border-radius: 40px;
+
+    }
+
+    #main10b i {
+        position: absolute;
+        top: 16px;
+        left: 25px;
+        font-size: 50px;
+        color: white;
+    }
+
+    #main10c {
+        position: absolute;
+        top: 250px;
+        left: 75px;
+        height: 80px;
+        width: 80px;
+        background-color: #8325FD;
+        border-radius: 40px;
+
+    }
+
+    #main10c i {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        font-size: 40px;
+        color: white;
+    }
+
+    #main10d {
+        position: absolute;
+        top: 380px;
+        left: 75px;
+        height: 80px;
+        width: 80px;
+        background-color: #8325FD;
+        border-radius: 40px;
+
+    }
+
+    #main10d i {
+        position: absolute;
+        top: 15px;
+        left: 22px;
+        font-size: 50px;
+        color: white;
+    }
+
+    #main10e {
+        position: absolute;
+        top: 120px;
+        left: 220px;
+        font-size: 30px;
+        color: white;
+    }
+
+    #main10f {
+        position: absolute;
+        top: 250px;
+        left: 220px;
+        font-size: 30px;
+        color: white;
+    }
+
+    #main10g {
+        position: absolute;
+        top: 380px;
+        left: 220px;
+        font-size: 30px;
+        color: white;
+    }
+
+    .dropbtn {
+        visibility: collapse;
+    }
+
+    @media screen and (max-width: 426px) {
+
+        .dropbtn {
+            visibility: visible;
+        }
+
+        .dropdown-content {
+
+            display: none;
+        }
+
+        #main1 {
+            width: 315px;
+            height: 150px
+        }
+
+        #main01 {
+            top: 20px;
+            font-size: 30px;
+        }
+
+        #main02 {
+            font-size: 20px;
+            top: 65px;
+            padding: 5px 5px;
+        }
+
+        #main03 {
+            font-size: 20px;
+            top: 115px;
+        }
+
+        #main2 {
+            top: 300px;
+            left: 25px;
+        }
+
+        #main2 img {
+            height: 355px;
+            width: 270px;
+            border-radius: 25px;
+        }
+
+        #main3 {
+            top: 700px;
+            height: 250px;
+            width: 325px;
+        }
+
+        #main3a {
+            font-size: 25px;
+        }
+
+        #main3b {
+            top: 50px;
+            font-size: 15px;
+        }
+
+        #main4 {
+            top: 300px;
+            left: 310px;
+        }
+
+        #main5 {
+            top: 390px;
+            left: 310px;
+        }
+
+        #main6 {
+            top: 480px;
+            left: 310px;
+        }
+
+        #main7 {
+            top: 570px;
+            left: 310px;
+        }
+
+        #main8 {
+            top: 1000px;
+            height: 630px;
+            width: 345px;
+        }
+
+        /* #main9 {
+            top: 1800px;
+        } */
+
+        /* #main10 {
+            top: 2100px;
+        } */
+
+        #main8a {
+            position: absolute;
+            top: 10px;
+            left: 40px;
+            font-size: 30px;
+            color: white;
+        }
+
+        #main8b {
+            position: absolute;
+            top: 70px;
+            left: 20px;
+        }
+
+        #main8b img {
+            height: 220px;
+            width: 300px;
+            border-radius: 30px;
+        }
+
+        #main8c {
+            position: absolute;
+            top: 330px;
+            left: 20px;
+        }
+
+        #main8c img {
+            height: 220px;
+            width: 300px;
+            border-radius: 30px;
+        }
+
+        #main8d {
+            font-size: 25px;
+            position: absolute;
+            top: 255px;
+            left: 60px;
+
+        }
+
+        #main8e {
+            font-size: 25px;
+            position: absolute;
+            top: 510px;
+            left: 30px;
+
+        }
+
+
+        #main9 {
+            position: absolute;
+            top: 1650px;
+            left: 25px;
+            height: 445px;
+            width: 345px;
+            background-color: #232631;
+            border-radius: 30px;
+        }
+
+        #main9a {
+            position: absolute;
+            top: 30px;
+            left: 45px;
+            font-size: 30px;
+            color: white;
+        }
+
+        #main9b {
+            position: absolute;
+            top: 100px;
+            left: 25px;
+            height: 80px;
+            width: 80px;
+            background-color: white;
+            border-radius: 35px;
+
+        }
+
+        #main9b img {
+            position: absolute;
+            top: 15px;
+            left: 13px;
+            height: 55px;
+            width: 55px;
+        }
+
+        #main9c {
+            position: absolute;
+            top: 100px;
+            left: 135px;
+            height: 80px;
+            width: 80px;
+            background-color: white;
+            border-radius: 35px;
+
+        }
+
+        #main9c img {
+            position: absolute;
+            top: 15px;
+            left: 13px;
+            height: 55px;
+            width: 55px;
+        }
+
+        #main9d {
+            position: absolute;
+            top: 100px;
+            left: 245px;
+            height: 80px;
+            width: 80px;
+            background-color: white;
+            border-radius: 35px;
+
+        }
+
+        #main9d img {
+            position: absolute;
+            top: 15px;
+            left: 13px;
+            height: 55px;
+            width: 55px;
+        }
+
+        #main9e {
+            position: absolute;
+            top: 220px;
+            left: 25px;
+            height: 80px;
+            width: 80px;
+            background-color: white;
+            border-radius: 35px;
+
+        }
+
+        #main9e img {
+            position: absolute;
+            top: 15px;
+            left: 13px;
+            height: 55px;
+            width: 55px;
+        }
+
+        #main9f {
+            position: absolute;
+            top: 220px;
+            left: 135px;
+            height: 80px;
+            width: 80px;
+            background-color: white;
+            border-radius: 35px;
+
+        }
+
+        #main9f img {
+            position: absolute;
+            top: 15px;
+            left: 13px;
+            height: 55px;
+            width: 55px;
+        }
+
+        #main9g {
+            position: absolute;
+            top: 220px;
+            left: 245px;
+            height: 80px;
+            width: 80px;
+            background-color: white;
+            border-radius: 35px;
+
+        }
+
+        #main9g img {
+            position: absolute;
+            top: 15px;
+            left: 13px;
+            height: 55px;
+            width: 55px;
+        }
+
+        #main9h {
+            position: absolute;
+            top: 340px;
+            left: 135px;
+            height: 80px;
+            width: 80px;
+            background-color: white;
+            border-radius: 35px;
+
+        }
+
+        #main9h img {
+            position: absolute;
+            top: 15px;
+            left: 13px;
+            height: 55px;
+            width: 55px;
+        }
+
+        #main10 {
+            position: absolute;
+            top: 2150px;
+            left: 25px;
+            height: 500px;
+            width: 345px;
+            background-color: #232631;
+            border-radius: 30px;
+        }
+
+        #main10a {
+            position: absolute;
+            top: 30px;
+            left: 45px;
+            font-size: 30px;
+            color: white;
+
+        }
+
+        #main10b {
+            position: absolute;
+            top: 90px;
+            left: 45px;
+            height: 80px;
+            width: 80px;
+            background-color: #8325FD;
+            border-radius: 40px;
+
+        }
+
+        #main10b i {
+            position: absolute;
+            top: 16px;
+            left: 25px;
+            font-size: 50px;
+            color: white;
+        }
+
+        #main10c {
+            position: absolute;
+            top: 220px;
+            left: 45px;
+            height: 80px;
+            width: 80px;
+            background-color: #8325FD;
+            border-radius: 40px;
+
+        }
+
+        #main10c i {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            font-size: 40px;
+            color: white;
+        }
+
+        #main10d {
+            position: absolute;
+            top: 350px;
+            left: 45px;
+            height: 80px;
+            width: 80px;
+            background-color: #8325FD;
+            border-radius: 40px;
+
+        }
+
+        #main10d i {
+            position: absolute;
+            top: 15px;
+            left: 22px;
+            font-size: 50px;
+            color: white;
+        }
+
+        #main10e {
+            position: absolute;
+            top: 90px;
+            left: 180px;
+            font-size: 20px;
+            color: white;
+        }
+
+        #main10f {
+            position: absolute;
+            top: 220px;
+            left: 180px;
+            font-size: 17px;
+            color: white;
+        }
+
+        #main10g {
+            position: absolute;
+            top: 350px;
+            left: 180px;
+            font-size: 20px;
+            color: white;
+        }
+
+        .right {
+            position: absolute;
+            left: 280px;
+        }
+
+        #menubtn {
+            position: absolute;
+            left: 80px;
+        }
+    }
+</style>
+
+<body>
+    <div class="container1">
+        <header>
+            <div class="header">
+                <div id="left">
+                    <img src="p1.PNG" alt="Error 404">
+                </div>
+                <div id="left1">abhishek_manglani</div>
+                <div id="left2">
+                    <img src="p2.PNG" alt="Error 404">
+                </div>
+                <div class="right">
+                    <nav class="navbar">
+                        <ul>
+                            <div><button onclick="myFunction()" class="dropbtn" id="menubtn">Menu</button>
+                                <div id="myDropdown" class="dropdown-content">
+                                    <li><a href="#" class="active"></a></li>
+                                    <li><a href="#main1">Home</button></a></li>
+                                    <li><a href="#main3">About</a></li>
+                                    <li><a href="#main8">Projects</a></li>
+                                    <li><a href="#main9">Skills</a></li>
+                                    <li><a href="#main10">Contact</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div id="main1">
+                <div id="main01">Hi! &#128075 I Am </div>
+                <div id="main02">Web Developer</div>
+                <div id="main03">Abhishek Manglani</div>
+            </div>
+            <div id="main2">
+                <img src="dp2.jpg" alt="Error 404">
+            </div>
+            <div id="main3">
+                <div id="main3a">About Me :</div>
+                <div id="main3b">👨‍💻 Frontend Developer | HTML | CSS | JavaScript 🚀<br><br>
+
+                    Passionate about crafting immersive digital experiences through code. 🌟 <br>
+                    Transforming designs into
+                    pixel-perfect, responsive web applications is my forte. With a deep love for clean code and
+                    attention to detail, I thrive on turning complex problems into elegant user interfaces.
+                </div>
+            </div>
+
+            <div id="main4">
+                <div id="main4a"><a href="#"><i class='fa fa-linkedin'></i></a></div>
+            </div>
+
+            <div id="main5">
+                <div id="main5a"><a href="#"><i class='fa fa-github'></i></a></div>
+            </div>
+
+            <div id="main6">
+                <div id="main6a"><a href="#"><i class='fa fa-twitter'></i></a></div>
+            </div>
+
+            <div id="main7">
+                <div id="main7a"><a href="#"><i class='fa fa-envelope'></i></a></div>
+            </div>
+            <div id="main8">
+                <div id="main8a">Projects</div>
+                <div id="main8b"><img src="blogly_website..png" alt="Error 404"></div>
+                <div id="main8c"><img src="Furniture.com.png" alt="Error 404"></div>
+                <div id="main8d">Bloggling Website</div>
+                <div id="main8e">Basic Landing Page</div>
+            </div>
+            <div id="main9">
+                <div id="main9a">Tech Stack:</div>
+                <div id="main9b"><img src="HTML_logo.png" alt="Error 404"></div>
+                <div id="main9c"><img src="css_logo.png" alt="Error 404"></div>
+                <div id="main9d"><img src="javascript_logo.png" alt="Error 404"></div>
+                <div id="main9e"><img src="Flutter_logo.png" alt="Error 404"></div>
+                <div id="main9f"><img src="c++_logo.png" alt="Error 404"></div>
+                <div id="main9g"><img src="c_logo.png" alt="Error 404"></div>
+                <div id="main9h"><img src="python_logo.png" alt="Error 404"></div>
+            </div>
+            <div id="main10">
+                <div id="main10a">Contact Me</div>
+                <div id="main10b"><a href="#"><i class='fa fa-map-marker'></i></a></div>
+                <div id="main10c"><a href="#"><i class='fa fa-envelope'></i></a></div>
+                <div id="main10d"><a href="#"><i class='fa fa-user'></i></a></div>
+                <div id="main10e"><strong>Location</strong><br>Jabalpur,Madhya Pradesh</div>
+                <div id="main10f"><strong>Mail</strong><br>abhishekmanglani01<br>@gmail.com</div>
+                <div id="main10g"><strong>Resume</strong><br>Download My Resume</div>
+            </div>
+
+
+
+
+        </main>
+        <footer></footer>
+
+    </div>
+
+    <script>
+        function myFunction() {
+            let para1 = document.getElementById('myDropdown');
+            if (para1.style.display != 'block') {
+                para1.style.display = 'block';
+            }
+            else {
+                para1.style.display = 'none';
+            }
+        }
+
+        // function topFunction() {
+        //     document.body.scrollTop = 1500;
+        //     document.documentElement.scrollTop = 1500;
+        // }
+
+
+        // this is for scrolling the page to identified height on tapping or clicking the anchor tag.
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener("click", function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute("href")).scrollIntoView({
+                    behaviour: "smooth"
+                })
+            })
+        })
+
+    </script>
+</body>
+
+</html>
